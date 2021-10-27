@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import RichTextEditor from 'react-rte';
+// import RichTextEditor from 'react-rte';
 
 export class Heading extends Component {
     titleRef = null;
@@ -10,13 +10,14 @@ export class Heading extends Component {
             shownParagraph: 1,
             showEditorPanel: false,
             showEditorPanelTab: 0,
+            value: '',
             formContent: {
                 title: "Heading",
                 padding_bottom: '',
-                padding_top: ''
+                padding_top: '',
             },
 
-            value: RichTextEditor.createEmptyValue(),
+            // value: RichTextEditor.createEmptyValue(),
         }
     };
 
