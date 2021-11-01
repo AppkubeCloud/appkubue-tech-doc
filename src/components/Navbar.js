@@ -191,7 +191,7 @@ class Navbar extends React.Component {
 				</Link>
 				<div className="d-none d-lg-block">
 					<ul className="nav nav-pills">
-						<li className={`nav-item dropdown ${mainMenuActiveIndex === 0 ? 'active' : ''}`} onMouseOver={() => this.setMainMenuActive(0)} onMouseOut={() => this.setMainMenuActive(-1)}>
+						{/* <li className={`nav-item dropdown ${mainMenuActiveIndex === 0 ? 'active' : ''}`} onMouseOver={() => this.setMainMenuActive(0)} onMouseOut={() => this.setMainMenuActive(-1)}>
 							<a href="#">Product &amp; Solutions <i className="fas fa-chevron-down"></i></a>
 							<div className={`main-sub-menu`}>
 								<ul className="default-active">
@@ -218,7 +218,7 @@ class Navbar extends React.Component {
 						</li>
 						<li className="nav-item">
 							<Link to="/survey">Survey Form</Link>
-						</li>
+						</li> */}
 						<li className="nav-item">
 							<Link to="/scenario/1">Scenario</Link>
 						</li>
@@ -239,7 +239,7 @@ class Navbar extends React.Component {
 							<span className="fa fa-times"></span>
 						</button>
 						<ul className="navbar-nav">
-							<li className={`navbar-item dropdown`}>
+							{/* <li className={`navbar-item dropdown`}>
 								<Link className="navbar-link">Product & Solutions</Link>
 								<span
 									onClick={() => this.setMobileMenuActiveStatus(0)}
@@ -264,13 +264,13 @@ class Navbar extends React.Component {
 										{this.renderCategoriesMobile("service", posts, 1)}
 									</ul>
 								</div>
-							</li>
-							<li className="navbar-item">
+							</li> */}
+							{/* <li className="navbar-item">
 								<Link to="/workflowpost" className="navbar-link">Workflow</Link>
 							</li>
 							<li className="navbar-item">
 								<Link to="/survey" className="navbar-link">Survey Form</Link>
-							</li>
+							</li> */}
 							<li className="navbar-item">
 								<Link to="/scenario/1" className="navbar-link">Scenario</Link>
 							</li>
