@@ -126,7 +126,7 @@ export class IndexPageTemplate extends React.Component {
       <div className="main-home-container">
         <div className="d-flex w-100 flex-wrap align-items-center justify-content-evenly pl py-lg-4 banner-container">
           <div className="h-50c card shadow bg-body rounded px-5">
-        <a href="https://xformation-doc.netlify.app/" className="text-capitalize card-text text-primary text-decoration-none">
+        <a href="https://xformation-tech-doc.netlify.app/" className="text-capitalize card-text text-primary text-decoration-none">
             <div className="card-body">
               <div className="d-flex flex-column align-items-center">
               <AiFillBook className="fs-icon text"/>
