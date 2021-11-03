@@ -135,7 +135,7 @@ export class IndexPageTemplate extends React.Component {
             </div>
           </a>
           </div>
-          <div className="h-50c card shadow bg-body rounded px-5">
+          {/* <div className="h-50c card shadow bg-body rounded px-5">
           <a href="https://xformation-website.netlify.app/scenario/1" className="text-decoration-none text-capitalize card-text text-primary">
             <div className="card-body">
               <div className="d-flex flex-column align-items-center">
@@ -144,7 +144,7 @@ export class IndexPageTemplate extends React.Component {
               </div>
             </div>
             </a>
-          </div>
+          </div> */}
           <div className="h-50c card shadow bg-body rounded px-5">
           <a href="https://xformation-website.netlify.app/xformation/xformation/" className="text-decoration-none text-capitalize card-text text-primary">
             <div className="card-body">
